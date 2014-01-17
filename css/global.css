@@ -298,3 +298,18 @@ nav.main-menu>ul>li.selected{
 nav.main-menu>ul>li.selected a{
     line-height: 25px;
 }
+
+
+.latest-news {
+    background-color: #931a46;
+}
+.latest-news h5 {
+    font-size: 1.1em;
+}
+.news-item {
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.last-item {
+    margin-bottom: 0px;
+}
