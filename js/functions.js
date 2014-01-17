@@ -15,24 +15,6 @@ WebFontConfig = {
     s.parentNode.insertBefore(wf, s);
 })();
 
-// Global variables
-var logoContent;
-var sly;
-var gallery_speed;
-
-if (typeof logo !== 'undefined') {
-    addLogoToMenu(logo.logoContent);
-}
-
-//Add logo to the center of all menu item list (Tripod theme)
-function addLogoToMenu(logoContent){
-    var middle = Math.round(jQuery(".menu-with-logo nav.main-menu > ul.sf-menu > li").length / 2);
-    jQuery(".menu-with-logo nav.main-menu > ul.sf-menu > li:nth-child(" + middle + ")").after(jQuery('<li class="logo">'+logoContent+'</li>'));
-    if (typeof logo !== 'undefined') {
-        jQuery(".sticky-menu-container nav.main-menu > ul.sf-menu > li:nth-child(" + middle + ")").after(jQuery('<li class="logo">'+logoContent+'</li>'));
-    }
-}
-
 //init menu - you need just to give him the menu class
 function initMenu(menu){
   "use strict";
