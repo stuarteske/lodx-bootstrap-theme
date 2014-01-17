@@ -1,17 +1,3 @@
 body .index-page {
-    /*padding: 40px 15px;*/
     text-align: center;
-}
-body.index-page div.latest-news {
-    background-color: #931a46;
-}
-body.index-page div.latest-news h5 {
-    font-size: 1.1em;
-}
-body.index-page div.news-item {
-    margin-bottom: 20px;
-    padding-right: 10px;
-}
-body.index-page div.last-item {
-    margin-bottom: 0px;
 }
