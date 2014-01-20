@@ -1,0 +1,7 @@
+body.getinvolved-page {
+    text-align: left;
+}
+
+body.getinvolved-page .get-involved {
+    background: #ffffff url("../images/get-involved-background.png") top right no-repeat;
+}
