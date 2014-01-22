@@ -1,3 +1,6 @@
-body.getinvolved-page {
+body.charitableworks-page {
     text-align: left;
+}
+body.charitableworks-page .charitable-works {
+    background: #ffffff url("../images/charitable-works-background.png") top right no-repeat;
 }
