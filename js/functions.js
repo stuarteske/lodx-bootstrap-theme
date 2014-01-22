@@ -31,8 +31,13 @@ function initMenu(menu){
 }
 
 jQuery(document).ready(function(){
-  "use strict";
-  initMenu('.menu ul.sf-menu, .menu_and_logo ul.sf-menu, .login-menu.sf-menu');
+    "use strict";
+    initMenu('.menu ul.sf-menu, .menu_and_logo ul.sf-menu, .login-menu.sf-menu');
+
+    //console.log('rotating');
+
+    // Rotate Image
+    //$('.rotate35').rotate(35);
 });
 
 
