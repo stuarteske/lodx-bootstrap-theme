@@ -37,7 +37,7 @@ jQuery(document).ready(function(){
     //console.log('rotating');
 
     // Rotate Image
-    //$('.rotate35').rotate(35);
+    //$('img.rotate35').rotation(35)
 });
 
 
