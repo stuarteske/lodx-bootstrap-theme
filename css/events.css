@@ -1,1 +1,8 @@
 body.events-page {}
+
+body.events-page table {
+    width: 100%;
+}
+body.events-page table td {
+    width:25%;
+}
