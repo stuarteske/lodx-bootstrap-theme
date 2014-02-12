@@ -1,8 +1,19 @@
 body.events-page {}
-
 body.events-page table {
     width: 100%;
 }
+body.events-page table th {
+    font-weight: 600;
+}
 body.events-page table td {
-    width:25%;
+    width:14%;
+}
+body.events-page table td div.day {
+    font-size: 2.2em;
+    font-weight: 600;
+    border-bottom: 6px solid #000000;
+}
+body.events-page table td div.event {
+    height: 80px;
+    padding: 10px;
 }
