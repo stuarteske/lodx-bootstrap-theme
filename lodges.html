@@ -11,7 +11,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/non-responsive.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
-    <link href="css/charitable-works.css" rel="stylesheet">
     <link href="css/superfish.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -19,7 +18,7 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="aboutus-page">
+<body class="">
 
 <div class="container">
 
@@ -42,10 +41,10 @@
                         <li class=""><a href="index.html">Index</a></li>
                         <li class=""><a href="get-involved.html">Get Involved</a></li>
                         <li class=""><a href="charitable-works.html">Charitable Works</a></li>
-                        <li class="current"><a href="about-us.html">About Us</a></li>
+                        <li class=""><a href="about-us.html">About Us</a></li>
                         <li class=""><a href="events.html">Events</a></li>
                         <li class=""><a href="news.html">News</a></li>
-                        <li class=""><a href="lodges.html">Lodges</a></li>
+                        <li class="current"><a href="lodges.html">Lodges</a></li>
                     </ul>
                     <div class="clear"></div>
                 </li>
@@ -87,13 +86,61 @@
     </div>
 
     <div class="padding-left-right-15px">
-        <div class="row padding-left-right-40px padding-top-bottom-40px">
-            <div class="col-xs-6 padding-bottom-40px">
-                <p>A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again. A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again. A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again. A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again.</p>
-                <p>A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again. A lot of text will go here, and then some more. A little more text for good measure. And we repeat it all over again.</p>
-            </div>
-            <div class="col-xs-2 col-xs-offset-2">
-                <img data-src="holder.js/180x180" class="" />
+        <div class="row padding-left-right-40px padding-top-bottom-40px" style="background-color:#f7f7f7;">
+            <div class="col-xs-12">
+                <table class="table table-striped table-hover lodge-list">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Lodge</th>
+                            <th>Meeting</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-id="1">
+                            <td>1</td>
+                            <td>Lodge One</td>
+                            <td>Monday</td>
+                            <td>19:30</td>
+                        </tr>
+                        <tr data-id="101">
+                            <td>2</td>
+                            <td>Lodge Two</td>
+                            <td>Tuesday</td>
+                            <td>18:00</td>
+                        </tr>
+                        <tr data-id="202">
+                            <td>3</td>
+                            <td>Lodge Three</td>
+                            <td>Tuesday</td>
+                            <td>19:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Modal -->
+                <div class="modal fade" id="lodgeModal" tabindex="-1" role="dialog" aria-labelledby="lodgeModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <a href="#" class="btn btn-primary btn-sm lodge-link" role="button">
+                                    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                                    View Lodge
+                                </a>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
             </div>
         </div>
     </div>
@@ -101,18 +148,15 @@
     <div class="padding-left-right-15px">
         <div class="row latest-news padding-left-right-40px">
             <div class="col-xs-6 padding-top-bottom-40px letter-spacing-005em">
-                <p>Assimilant recte ducunt ad peritus gabalium. Abactus flavum particula est. Brodium, apolloniates, et victrix. Neuter, grandis sectams cito tractare de varius, primus orexis.</p>
-                <p>Assimilant recte ducunt ad peritus gabalium. Abactus flavum particula est. Brodium, apolloniates, et victrix. Neuter, grandis sectams cito tractare de varius, primus orexis.</p>
-                <p>Nunquam talem palus. Est fidelis danista, cesaris. Est castus castor, cesaris. Ubi est peritus orgia? Pol. Nunquam talem lacta. Cum parma crescere, omnes abnobaes promissio altus, superbus tumultumquees.</p>
-                <!--<h3 class="uppercase color-fff line-height-0em font-weight-100 padding-bottom-20px">What Our Masons Say</h3>-->
-                <!--<blockquote class="blockquote-1">-->
-                    <!--<p>Oiweh adue fhdfuawda daihda daidikjfhuyse oawida dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf. Dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf.</p>-->
-                    <!--<span>A simple person</span>-->
-                <!--</blockquote>-->
-                <!--<blockquote class="blockquote-1 last">-->
-                    <!--<p>Eiweh adue fhdfuawda daihda daidikjfhuyse oawida dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf. Dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf.</p>-->
-                    <!--<span>A simple person</span>-->
-                <!--</blockquote>-->
+                <h3 class="uppercase color-fff line-height-0em font-weight-100 padding-bottom-20px">What Our Masons Say</h3>
+                <blockquote class="blockquote-1">
+                    <p>Oiweh adue fhdfuawda daihda daidikjfhuyse oawida dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf. Dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf.</p>
+                    <span>A simple person</span>
+                </blockquote>
+                <blockquote class="blockquote-1 last">
+                    <p>Eiweh adue fhdfuawda daihda daidikjfhuyse oawida dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf. Dahdbbad aoflogrph jdanfskmfsp oajdija rgehd czlldsefspf.</p>
+                    <span>A simple person</span>
+                </blockquote>
             </div>
             <div class="col-xs-6 news-holder gradient-2 padding-top-bottom-40px letter-spacing-005em">
                 <h3 class="uppercase color-fff line-height-0em font-weight-100 padding-bottom-20px">Latest News</h3>
@@ -180,5 +224,53 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/holder.js"></script>
 <script src="js/functions.js"></script>
+
+<script>
+    // Fake Lodge data
+    var lodgeCollection =  {
+        1: {
+            'name': 'Lodge One',
+            'description': '<p>Zelus de flavum axona, talem devatio! Est peritus bromium, cesaris. Ecce, aonides! Ecce, tus!</p>',
+            'meetingDay': 'Monday',
+            'meetingTime': '19:00',
+            'url': 'lodge-one'
+        },
+        101: {
+            'name': 'Lodge Two',
+            'description': '<p>Nobilis, fatalis vortexs superbe anhelare de fidelis, grandis poeta!</p>',
+            'meetingDay': 'Tuesday',
+            'meetingTime': '19:00',
+            'url': 'lodge-two'
+        },
+        202: {
+            'name': 'Lodge Three',
+            'description': '<p>Pius, ferox eposs tandem promissio de noster, emeritis lumen! Gratis, fidelis glutens sensim acquirere de pius, placidus hibrida.</p>',
+            'meetingDay': 'Tuesday',
+            'meetingTime': '19:30',
+            'url': 'lodge-three'
+        }
+    }
+
+    $(document).ready(function() {
+        // Debug
+        //console.log('Im Ready');
+
+        // Attach the click event
+        $('.lodge-list tbody tr').click(function(event){
+            // Get the id of the clicked lodge
+            var lodgeId = $(event.currentTarget).data('id');
+
+            // Amend the modal
+            $('.modal-title').html( lodgeCollection[lodgeId].name );
+            $('.modal-body').html( lodgeCollection[lodgeId].description );
+            $('.lodge-link').attr('href', lodgeCollection[lodgeId].url);
+
+            // Show the modal
+            $('#lodgeModal').modal('show');
+
+        });
+    });
+
+</script>
 </body>
 </html>
