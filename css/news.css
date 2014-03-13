@@ -1,0 +1,30 @@
+body.news-page {}
+
+body.news-page .news-container a {
+    color: #931a46;
+}
+
+body.news-page .news-container a.btn {
+    color: #ffffff;
+}
+
+body.news-page .news-container a.btn-primary {
+    background-color: #931a46;
+    border-color: #931a46;
+}
+
+body.news-page .news-container .new-item {
+    border-bottom: 2px dotted #d7d7d7;
+    padding-bottom: 25px;
+}
+
+body.news-page .news-container .new-item:last-child {
+    border-bottom: none;
+}
+
+body.news-page .news-container .new-item span.news-date {
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 200;
+    font-size: 0.8em;
+}

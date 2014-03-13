@@ -245,3 +245,16 @@ blockquote.blockquote-1 span {
 .last-item {
     margin-bottom: 0px;
 }
+
+/**
+ * New Changes
+ */
+
+a {
+    color:#ffffff;
+}
+
+.latest-news p {
+    color:#ffffff;
+    font-weight: 100;
+}
